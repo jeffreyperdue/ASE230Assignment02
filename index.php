@@ -44,36 +44,42 @@ $team = [
     [
         'firstname' => 'Brandon',
         'lastname' => 'Anthony',
-        'jobTitle' => 'Web Developer',
+        'jobTitle' => 'Help Desk Tier 1',
         'email' => 'anthonyb1@mymail.nku.edu',
-        'phone' => '867-5309',
-        'linkedin' => 'https://www.linkedin.com/in/brandonanthony/',
-        'github' => 'https://github.com/brandonanthony',
+        'phone' => '513 504 1877',
+        'linkedin' => 'https://www.linkedin.com/in/brandon-j-anthony/',
+        'github' => 'https://github.com/anthonyb1nku',
         'website' => 'brandonanthony.com',
-        'summary' => 'Aspiring Web Developer with a passion for creating intuitive and dynamic user experiences. Skilled in HTML, CSS, and JavaScript with a strong focus on front-end development.',
+        'summary' => 'Current Cybersecurity and Applied Software Engineering student at Northern Kentucky University with a strong attention to detail and great organizational skills seeking an internship in the Greater Cincinnati area. Able to work in-person, remote, or hybrid in the Cincinnati tri-state area.',
         'profileImage' => 'assets/brandon.jpg',
         'workExperience' => [
             [
-                'position' => 'Junior Web Developer',
-                'company' => 'Tech Startup',
-                'duration' => '2022 - Present',
-                'description' => 'Developed and maintained website features for multiple clients using HTML, CSS, and JavaScript...'
+                'position' => 'IT Intern',
+                'company' => 'Fischer Homes',
+                'duration' => '2024 - Present',
+                'description' => 'Configure employee accounts using Active Directory and Miscrosoft 365.'
+            ],
+            [
+                'position' => 'Air & Missile Defense Vehicle Commander',
+                'company' => 'US Army',
+                'duration' => '2018-2023',
+                'description' => 'Tested and integrated the new M-SHORAD Stryker into US ARMY operation.'
             ],
         ],
         'skills' => [
             'HTML/CSS' => 95,
-            'JavaScript' => 90,
-            'React' => 85,
-            'PHP' => 80
+            'Java' => 92,
+            'Python' => 85,
+            'PHP' => 87,
         ],
         'education' => [
             [
-                'degree' => 'BSc in Computer Science',
-                'institution' => 'University of California',
-                'year' => '2024'
+                'degree' => 'BS in CyberSecurity, Applied Software Engineering',
+                'institution' => 'Northern Kentucky University',
+                'year' => '2027'
             ]
         ],
-        'interests' => ['Photography', 'Gaming']
+        'interests' => ['Hiking', 'Soccer']
     ],
     [
         'firstname' => 'Nick',
@@ -143,7 +149,7 @@ $team = [
     <article class="resume-wrapper text-center position-relative">
         <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
             <h1 class="py-4 text-center">OUR AMAZING TEAM</h1>
-            <?php for($i = 0; $i < count($team); $i++): ?>
+            <?php for($i = 0; $i < count($team); $i++){ ?>
                 <?php
                     $name = $team[$i]['firstname'] . ' ' . $team[$i]['lastname'];
                     $jobTitle = $team[$i]['jobTitle'];
@@ -165,7 +171,7 @@ $team = [
                         </div>
                     </div>
                 </header>
-            <?php endfor; ?>
+            <?php } ?>
         </div>
     </article> 
     <footer class="footer text-center pt-2 pb-5">
