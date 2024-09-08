@@ -84,36 +84,36 @@ $team = [
     [
         'firstname' => 'Nick',
         'lastname' => 'Miller',
-        'jobTitle' => 'Data Analyst',
-        'email' => 'millern@mymail.nku.edu',
-        'phone' => '555-5555',
+        'jobTitle' => 'CyberSecurity Student',
+        'email' => 'millern28@mymail.nku.edu',
+        'phone' => '621-3909',
         'linkedin' => 'https://www.linkedin.com/in/nickmiller/',
-        'github' => 'https://github.com/nickmiller',
+        'github' => 'https://github.com/NickM69',
         'website' => 'nickmiller.com',
-        'summary' => 'Data Analyst with a knack for uncovering patterns and insights from complex data sets. Experienced in Python, SQL, and data visualization tools. Looking for opportunities to leverage data for strategic decision-making.',
+        'summary' => 'A student at nku in my 2nd year studying for a degree in cybersecurity and a minor in computer science.',
         'profileImage' => 'assets/nick.jpg',
         'workExperience' => [
             [
-                'position' => 'Data Analyst',
-                'company' => 'Finance Corp',
-                'duration' => '2021 - Present',
-                'description' => 'Analyzed large datasets to provide actionable insights, creating data visualizations and reports for the executive team...'
+                'position' => 'Work study program',
+                'company' => 'SECC',
+                'duration' => '2021 - 2022',
+                'description' => 'Took inventory and worked under acting IT director at SECC taking inventory and helping out.'
             ],
         ],
         'skills' => [
             'Python' => 98,
-            'SQL' => 95,
-            'Excel' => 90,
-            'R' => 85
+            'Java' => 95,
+            'HTML' => 90,
+            'PHP' => 85
         ],
         'education' => [
             [
-                'degree' => 'MS in Data Science',
-                'institution' => 'MIT',
-                'year' => '2022'
+                'degree' => 'BS in CyberSecurity',
+                'institution' => 'NKU',
+                'year' => '2026'
             ]
         ],
-        'interests' => ['Cycling', 'Chess']
+        'interests' => ['Gaming', 'Swimming']
     ]
 ];
 
